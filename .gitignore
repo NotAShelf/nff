@@ -1,0 +1,8 @@
+# ignore all nft files
+*.nft
+
+# ignore nix build artifacts
+result*
+
+# pycache
+__pycache__/

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nff"
+version = "0.1.0"
+description = ""
+authors = ["NotAShelf <raf@notashelf.dev>"]
+# readme = "README.md"
+# license = "BSD"
+packages = [
+  { include = "nff" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
